@@ -218,3 +218,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* About CSS */ 
+.aboutcontainer {
+    border-bottom: 2px dotted black;
+    padding-bottom: 5%;
+}
+
+
+.containermiddlesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Strategybox {
+    max-width: 40%;
+}
+
+.Howweworkbox {
+    max-width: 40%;
+}
+
+.PlacesweworkBox {
+    max-width: 40%;
+}
+
+
+.CollaborationBox {
+    max-width: 40%;
+}
+
