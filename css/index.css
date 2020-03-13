@@ -87,8 +87,21 @@ p {
     text-decoration: none;
 }
 
-.headerimg {
+.headerimgabout {
     background-image: url("../img/jumbo-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    height: 30%;
+    width: 80%;
+    margin-top: 3%;
+    padding-bottom: 50px;
+}
+
+.headerimghome {
+    background-image: url("../img/jumbo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

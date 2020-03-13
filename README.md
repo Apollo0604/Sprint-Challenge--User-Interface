@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-Semantic html is obvious in the tag. You have an idea immediately upon reading it. non semantic element do not clearly describes its meaning
+Semantic html is obvious in the tag. You have an idea immediately upon reading it. non semantic element do not clearly describe its meaning
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 block starts on the same line while inline does not. Inline you can not add height whilst block you can.
 3. What are the 4 areas of the box model?
