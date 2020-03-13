@@ -258,18 +258,19 @@ footer nav a {
 
 .containermiddlesection {
     display: flex;
+    border: 1px solid black;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 6%;
     padding-right: 6%;
     margin: 80px;
-    height: 50%;
 }
 
 
 .Strategybox {
-    max-width: 25%;
+    max-width: 40%;
     border-bottom: 1px dotted black;
+    margin-bottom: 20px;
 }
 
 .Strategybox:hover{
@@ -294,8 +295,9 @@ footer nav a {
 }
 
 .Howweworkbox {
-    max-width: 25%;
+    max-width: 40%;
     border-bottom: 1px dotted black;
+    margin-bottom: 20px;
 }
 
 .Howweworkbox:hover{
@@ -320,7 +322,8 @@ footer nav a {
 }
 
 .PlacesweworkBox {
-    max-width: 25%;
+    max-width: 40%;
+    margin-bottom: 20px;
     border-bottom: 1px dotted black;
 }
 
@@ -347,7 +350,8 @@ footer nav a {
 
 
 .CollaborationBox {
-    max-width: 25%;
+    max-width: 40%;
+    margin-bottom: 20px;
     border-bottom: 1px dotted black;
 }
 
