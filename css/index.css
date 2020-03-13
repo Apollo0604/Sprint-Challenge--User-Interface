@@ -85,16 +85,19 @@ p {
 .navbar a {
     color: black;
     text-decoration: none;
-    
 }
 
 .headerimg {
+    background-image: url("../img/jumbo-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    margin-left: 10%;
+    height: 30%;
+    width: 80%;
+    margin-top: 3%;
     padding-bottom: 50px;
-    width: 60%;
-    margin: 0 auto;
-    
 }
 
 
@@ -201,8 +204,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin-left: 10%;
 }
 
 footer nav {
@@ -223,7 +227,18 @@ footer nav a {
 
 /* About CSS */ 
 .aboutcontainer {
+    padding-top: 2%;
+    margin-left: 10%;
     border-bottom: 2px dotted black;
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+.worktogetherbox {
+    padding-top: 2%;
+    margin-left: 10%;
+    border-bottom: 2px dotted black;
+    width: 80%;
     padding-bottom: 5%;
 }
 
@@ -232,24 +247,139 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: 80px;
+    height: 50%;
 }
 
 
 .Strategybox {
-    max-width: 40%;
+    max-width: 25%;
+    border-bottom: 1px dotted black;
+}
+
+.Strategybox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeStrategy;
+}
+
+@keyframes colorchangeStrategy{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.Strategybox p {
+    padding-bottom: 10%;
 }
 
 .Howweworkbox {
-    max-width: 40%;
+    max-width: 25%;
+    border-bottom: 1px dotted black;
+}
+
+.Howweworkbox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeHowweworkbox;
+}
+
+@keyframes colorchangeHowweworkbox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.Howweworkbox p {
+    padding-bottom: 10%;
 }
 
 .PlacesweworkBox {
-    max-width: 40%;
+    max-width: 25%;
+    border-bottom: 1px dotted black;
+}
+
+.PlacesweworkBox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangePlacesweworkBox;
+}
+
+@keyframes colorchangePlacesweworkBox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.PlacesweworkBox p {
+    padding-bottom: 10%;
 }
 
 
 .CollaborationBox {
-    max-width: 40%;
+    max-width: 25%;
+    border-bottom: 1px dotted black;
 }
 
+.CollaborationBox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeCollaborationBox;
+}
+
+@keyframes colorchangeCollaborationBox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.CollaborationBox p {
+    padding-bottom: 10%;
+}
+
+.containermiddlesection a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius:5px;
+}
+
+.containermiddlesection a:hover{
+    animation-duration: 1s;
+    animation-name: colorchange;
+}
+
+@keyframes colorchange {
+    from {
+      color: black;
+      background-color: white;
+    }
+  
+    to {
+      color: white;
+      background-color: black;
+    }
+  }
