@@ -24,21 +24,19 @@
 }
 
 .headerimgabout {
-    border: 1px solid black;
     background-image: url("../img/jumbo-about.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    margin-left: 23%;
+    margin-left: 28%;
     height: 30%;
-    width: 100%;
+    width: 45%;
     margin-top: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .headerimghome {
-    border: 1px solid black;
     background-image: url("../img/jumbo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -182,36 +180,36 @@ footer nav a {
 
 /* About CSS */ 
 .aboutcontainer {
-    padding-top: 2%;
-    margin-left: 10%;
+    padding-top: 0%;
+    margin-left: 28%;
     border-bottom: 2px dotted black;
-    width: 80%;
-    padding-bottom: 5%;
+    width: 45%;
+    padding-bottom: 1%;
 }
 
 .worktogetherbox {
     padding-top: 2%;
-    margin-left: 10%;
-    border-bottom: 2px dotted black;
-    width: 80%;
-    padding-bottom: 5%;
+    margin-left: 28%;
+    width: 45%;
+    padding-bottom: 2%;
 }
 
 
 .containermiddlesection {
     display: flex;
-    border: 1px solid black;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 6%;
+    margin-left: 19.5%;
     padding-right: 6%;
-    margin: 80px;
+    padding-top: 2%;
+    width: 50%;
 }
+
 
 
 .Strategybox {
     max-width: 40%;
-    border-bottom: 1px dotted black;
     margin-bottom: 20px;
 }
 
@@ -238,8 +236,7 @@ footer nav a {
 
 .Howweworkbox {
     max-width: 40%;
-    border-bottom: 1px dotted black;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .Howweworkbox:hover{
@@ -263,10 +260,19 @@ footer nav a {
     padding-bottom: 10%;
 }
 
+.aboutnav {
+    width: 45%;
+    margin-left: 28%;
+    padding-top: 3;
+}
+
+.aboutnav a {
+    padding: 0% 5%;
+}
+
 .PlacesweworkBox {
     max-width: 40%;
-    margin-bottom: 20px;
-    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
 }
 
 .PlacesweworkBox:hover{
@@ -287,14 +293,13 @@ footer nav a {
 }
 
 .PlacesweworkBox p {
-    padding-bottom: 10%;
+    margin-bottom: 30px;
 }
 
 
 .CollaborationBox {
     max-width: 40%;
-    margin-bottom: 20px;
-    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
 }
 
 .CollaborationBox:hover{
@@ -316,6 +321,11 @@ footer nav a {
 
 .CollaborationBox p {
     padding-bottom: 10%;
+}
+
+.Border {
+    padding-top: 4%;
+    border-bottom: 1px dotted black;
 }
 
 .containermiddlesection a {
